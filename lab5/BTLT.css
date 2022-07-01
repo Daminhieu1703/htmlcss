@@ -1,0 +1,251 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.khung{
+    margin: auto;
+    width: 100%;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    background-color: red;
+    height: 60px;
+}
+.menu ul{
+    display: flex;
+    padding-left: 280px;
+}
+.menu ul li{
+    list-style: none;
+    line-height: 60px;
+    padding:0 20px 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu ul li:hover{
+    background-color: #c2c2c2;
+}
+.top-1{
+    display: flex;
+}
+.top-1 img{
+    margin-left: 700px;
+}
+.top-1 .search{
+    margin: 25px 0 0 150px;
+}
+.top-1 .search input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    padding-left: 5px;
+    font-size: 20px;
+    box-shadow:  0 0px 4px 3px #dcdcdc;
+}
+.top-1 .search input:focus{
+    outline: 0;
+}
+.top-1 .search i{
+    font-size: 30px;
+    position: absolute;
+    right: 360px;
+    top: 28px;
+    color: #696969;
+}
+.banner img{
+    width: 100%;
+}
+.picture{
+    margin: 50px 0 0 150px;
+}
+.picture img{
+    width: 200px;
+    height: 150px;
+    display: list-item;
+    margin: 10px 0 0 10px;
+    opacity: 0.6;
+}
+.picture .border{
+    border: 1px solid #c2c2c2;
+    width: 220px;
+    height: 170px;
+    margin-bottom: 20px;
+}
+.top-2{
+    display: flex;
+}
+.slide-picture img{
+    width: 820px;
+    height: 720px;
+    margin: 10px 0 0 10px;
+}
+.slide-picture{
+    border: 1px solid #c2c2c2;
+    width: 840px;
+    height: 740px;
+    margin: 50px 0 0 50px;
+}
+.thongtin{
+    margin: 50px 150px 0 30px;
+}
+.thongtin h1{
+    font-size: 32px;
+    padding-top: 10px;
+}
+.thongtin p{
+    padding-top: 20px;
+    color: #696969;
+}
+.thongtin h2{
+    padding-top: 20px;
+    font-size: 30px;color: red;
+}
+.one{
+    font-size: 24px;
+    width: 250px;
+    height: 50px;
+    margin-right: 60px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+}
+.two{
+    font-size: 15px;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #696969;
+    background-color: #696969;
+    border-radius: 30px;
+    color: white;
+}
+.button{
+    margin-top: 30px;
+}
+.border-part2 p{
+    padding: 2px 0 0 0;
+}
+.border-part2{
+    border: 1px solid #c2c2c2;
+    width: 500px;
+    margin-top: 40px;
+    height: 300px;
+
+}
+.icon{
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+.icon i{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.icon2 i{
+    font-size: 37px;
+    margin: 5px 10px 0 22px;
+}
+.icon2{
+    margin-top: 20px;
+    display: flex;
+}
+.icon3 i{
+    font-size: 50px;
+    margin: 0 15px 0 22px;
+}
+.icon3{
+    margin-top: 20px;
+    display: flex;
+}
+.gioithieu{
+    background-color: #c2c2c2;
+    height: 1300px;
+}
+.gioithieu h1{
+    font-size: 45px;
+    padding: 20px 0 0 80px;
+}
+.gioithieu p{
+    padding: 0 0 20px 80px;
+    font-size: 20px;
+}
+.gioithieu1 img{
+    margin-left: 80px;
+}
+.gioithieu1{
+    display: flex;
+}
+.gioithieu1 .text2 p{
+    padding:0 50px 10px 50px;
+    font-size: 20px;
+}
+.gioithieu2{
+    margin-top: 100px;
+    display: flex;
+}
+.gioithieu2 img{
+    margin: 0 80px 0 50px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background-image: url(Tai-nguyen-anh/banner\ footer.jpg);
+    background-size: cover;
+    display: flex;
+}
+.border-bottom h2{
+    color: white;
+    padding: 20px 0 0 0;
+}
+.border-bottom{
+    margin-left: 200px;
+    border-bottom: 3px solid white;
+    width: 443px;
+}
+.map2{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+}
+.map2 i{
+    font-size: 30px;
+    margin:0 10px 0 220px;
+}
+.dichvu .border-bottom{
+    width: 100px;
+}
+.dichvu .text-bottom{
+    padding-top: 4px;
+}
+.dichvu .text-bottom a{
+    color: white;
+    text-decoration: none;
+}
+.hotro .border-bottom{
+    width: 248px;
+}
+.hotro p{
+    padding: 20px 0 0 220px;
+    color: white;
+}
+iframe{
+    margin: 20px 0 0 220px;
+}
+.bottom-big{
+    background-color: #63788d;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    display: flex;
+}
+.bottom-big p{
+    font-size: 15px;
+    padding-left: 300px;
+}
+.bottom-big p:last-child{
+    margin-left: 400px;
+}

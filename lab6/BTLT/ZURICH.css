@@ -1,0 +1,80 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    height: 900px;
+    background-color: white;
+    box-shadow: 0 0 3px 4px #c2c2c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@font-face {
+    font-family: dancing;
+    src: url(DancingScript-VariableFont_wght.ttf);
+}
+.name{
+    margin: 20px;
+    border-top: 5px solid black;
+}
+.name h5{
+    text-align: center;
+    padding-top: 10px;
+}
+article{
+    border-right: 1px solid #c2c2c2;
+    box-shadow: 0 0 3px 4px #c2c2c2;
+    background-image: url(picture/zurich.jpg);
+    background-size: cover;
+}
+.all{
+    margin: 0 20px 0 20px;
+}
+.picture img{
+    width: 250px;
+    border: 7px solid #c2c2c2;
+    border-style: ridge;
+}
+.all-of-all{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tieude1 h1{
+    text-align: center;
+    font-family: dancing;
+    color: white;
+    text-shadow: 1px 1px 2px skyblue,0 0 17px black,0 0 7px darkblue;
+}
+.tieude1 h3{
+    padding: 10px 0 15px 0;
+    text-align: center;
+    font-family: dancing;
+    color: white;
+}
+.tieude h3{
+    padding: 10px 0 10px 17px;
+    font-family: dancing;
+}
+.picture p{
+    text-align: center;
+    padding: 10px 0 30px 0 ;
+    font-family: dancing;
+    color: white;
+}
+.tieude p{
+    padding: 0 17px 0 17px;
+    font-family: dancing;
+}
+.tieude p i{
+    font-weight: bold;
+    color: blue;
+}
+.bottom{
+    text-align: center;
+    padding-top: 24px;
+}
+.bottom1{
+    text-align: center;
+    padding-top: 166px;
+}

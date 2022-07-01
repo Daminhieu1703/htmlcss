@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>LOGO...</h1>
+        </header>
+        <menu>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </menu>
+        <div class="header">
+            <img src="banner.jpg" alt="" width="100%">
+        </div>
+        <div class="trong"></div>
+        <div class="anh">
+            <img src="anh1.jpg" alt="" width="300px">
+            <img src="anh2.jpg" alt="" width="300px">
+            <img src="anh3.jpg" alt="" width="300px">
+        </div>
+        <main>
+            <div class="content">
+                <div class="box1">
+                    <img src="img3.jpg" alt="" width="550px">
+                        <div class="text">
+                            <p>Giày cao gót từ lâu đã trở thành<br>
+                            người bạn thân thiết của phái đẹp.<br>
+                            Khi mang giày cao gót, phái đẹp sẽ<br>
+                            trở nên thanh mảnh với những bước<br>
+                            đi quyến rũ hơn bao giờ hết.</p>
+                            <div class="nut"><button><p>Xem thêm...</p></button></div>
+                        </div>
+                </div>
+                <div class="box2">
+                    <h1>NEW PRODUCT</h1>
+                    <div class="sp">
+                        <div class="anhSP">
+                            <img src="img1.jpg" alt="" width="300px" height="200px">
+                            <div class="text">
+                                <h3>Dép cao gót cap cấp</h3>
+                                <h4>1.899.000vnđ</h4>
+                                <p>Với chiếc quai mảnh vắt sau gót giày để lộ ra gót chân ngọc ngà, phái đẹp sẽ thật nổi bật và quyến rũ trong mọi set đồ mình yêu thích.</p>
+                            </div>
+                        </div>
+                        <div class="anhSP1">
+                            <div class="text">
+                                <h3>Giày cao gót cap cấp</h3>
+                                <h4>2.299.000vnđ</h4>
+                                <p>Các tín đồ thời trang thế giới thường xuyên xuất hiện trên phố trong trang phục hoặc phụ kiện được trang trí bằng những chiếc đinh kim loại đầu nhọn hoặc đầu tròn.</p>
+                            </div>
+                            <img src="img2.jpg" alt="" width="300px" height="200px">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </main>
+        <div class="slider">
+            <div id="dieuhuong">
+                <i class="fa fa-chevron-circle-left" style="font-size: 50px;" onclick="prev()"></i>
+                <i class="fa fa-chevron-circle-right" style="font-size: 50px;" onclick="next()"></i>
+            </div>
+            <img src="slider-image1.jpg" alt="" id="slider" width="100%">
+        </div>
+        <footer><p>FOOTER</p></footer>
+</body>
+
+<script>
+    var num = 0
+     var mang_anh = ["slider-image1.jpg","slider-image2.jpg","slider-image3.jpg","slider-image4.jpg"]
+     var tudong
+     function next(params) {
+         var slider = document.getElementById("slider");
+         num ++;
+         if (num >= mang_anh.length) {
+             num = 0;
+         }
+         slider.src = mang_anh[num]
+     }
+     function prev(params) {
+         var slider = document.getElementById("slider");
+         num --;
+         if (num < 0) {
+             num = mang_anh.length - 1;
+         }
+         slider.src = mang_anh[num]
+     }
+     tudong = setInterval(() => {
+         var slider = document.getElementById("slider");
+         num ++;
+         if (num >= mang_anh.length) {
+             num = 0;
+         }
+         slider.src = mang_anh[num]
+     }, 2000);
+</script>
+<!-----JS----->
+</html>

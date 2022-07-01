@@ -1,0 +1,169 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+@font-face {
+    font-family: text-logo;
+    src: url(font/marquee\ moon.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: name-logo;
+    src: url(font/resurgen.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: menu-logo;
+    src: url(font/UTM\ Avo.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: menucon-logo;
+    src: url(font/UTM\ Gradoo.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+.khung{
+    width: 1500px;
+    margin: auto;
+    background-color: white;
+    height: 1440px;
+}
+.khung2{
+    margin: 0 15px 0 15px;
+    border-top: 5px solid black;
+}
+header{
+    border-top: 8px solid black;
+    border-top-style: dotted;
+}
+h1{
+    font-family: text-logo;
+    font-size: 70px;
+    font-weight: 100;
+}
+.name h1{
+    font-family: name-logo;
+    font-size: 70px;
+}
+.name p{
+    font-family: menu-logo;
+    padding-left: 140px;
+    font-size: 20px;
+}
+.sheader{
+    display: flex;
+    border-bottom: 1px solid black;
+    height: 230px;
+}
+.name{
+    margin: 70px 0 0 230px;
+}
+.logo{
+    margin: 20px 0 0 192px;
+    border-right: 5px solid black;
+    width: 450px;
+    height: 200px;
+}
+.logo img{
+    margin-left: 70px;
+}
+.sheader2{
+    border-top: 1px solid black;
+    margin-top: 2px;
+    height: 70px;
+    background-color: skyblue;
+}
+ul li{
+    list-style: none;
+    float: left;
+    padding: 0 50px 0 50px;
+    border-right: 1px solid black;
+    margin-top: 19px;
+    height: 30px;
+}
+ul li:last-child{
+    border-right: none;
+}
+ul li a{
+    font-family: menu-logo;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+form{
+    line-height: 70px;
+}
+input{
+    margin-left: 200px;
+    height: 35px;
+    width: 250px;
+}
+input:focus{
+    outline: 0;
+}
+button{
+    height: 35px;
+    width: 70px;
+    color: white;
+    background-color: black;
+}
+main{
+    border-top: 5px solid black;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+h2{
+    font-family: menucon-logo;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 25px;
+}
+.menu-1{
+    margin-bottom: 20px;
+}
+.menu-1 .fa{
+    font-size: 10px;
+    padding: 30px 10px 0 0;
+}
+.menu-1 a{
+    text-decoration: none;
+    color: black;
+    font-family: menu-logo;
+    font-size: 20px;
+}
+.menu-1 a:hover{
+    text-decoration: underline;
+}
+.right img{
+    margin: 20px 0 0 20px;
+    width: 1100px;
+    height: 630px;
+}
+.tuychon{
+    display: flex;
+    margin-left: 110px;
+}
+.tuychon h2{
+    border: 20px solid black;
+    width: 250px;
+    height: 250px;
+    padding-top: 90px;
+    margin: 20px 80px 0 0;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    height: 150px;
+    border: 10px solid black;
+    border-style: dotted;
+    margin-top: 30px;
+    background-color: skyblue;
+}
+footer p{
+    font-size:25px;
+    padding-top: 10px;
+}

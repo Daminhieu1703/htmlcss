@@ -1,0 +1,34 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+@font-face {
+    font-family: tieu_de;
+    src:url(CHOPS___.TTF);
+}
+@font-face{
+    font-family: ND;
+    src: url(sad\ films.ttf);
+}
+
+.container{
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    background: #c2c2c2;
+}
+.tieude{
+    text-align: center;
+}
+.tieude h1{
+    font-family: tieu_de;
+    font-size: 70px;
+    font-weight: 100;
+}
+.content{
+    padding: 20px 32px;
+}
+.content p{
+    font-family: Tahoma;
+}
+.content b{
+    font-family: ND;
+    font-size: 50px;
+}

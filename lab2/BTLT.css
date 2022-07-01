@@ -1,0 +1,189 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+#khung{
+    width: 100%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+}
+#menu{
+    height: 30px;
+    background-color: #0058a2;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+li{
+    display: inline;
+    padding-left: 35px;
+    line-height: 30px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+li a:hover{
+    text-decoration: underline;
+}
+input{
+    width: 220px;
+}
+button{
+    background-color: #feda00;
+    color: #0058a2;
+    border: 1px solid #0058a2;
+    width: 70px;
+    font-weight:bold ;
+}
+#picture{
+    text-align: center;
+}
+
+form{
+    margin-top: 2px;
+}
+#dieuhuong{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 200px;
+    color: white;
+    opacity: 0.6;
+}
+#dieuhuong i:last-child{
+    position: relative;
+    left: 1395px;
+}
+#dieuhuong i:hover{
+    color: #0058a2;
+    opacity: 2.6;
+}
+#slider{
+    width: 100%;
+}
+#menu2{
+    display: flex;
+    width: 100%;
+}
+#menu2 #anh{
+    width: 506px;
+}
+#dotrongnha a:hover{
+    background-color: black;
+    opacity: 0.6;
+}
+#bosuutap #icon i{
+    font-size: 30px;
+}
+#icon{
+    margin: 15px 0 20px 330px;
+    color: #0058a2;
+}
+#bosuutap h1{
+    font-size: 40px;
+    font-weight:500;
+    text-align: center;
+    color: #0058a2;
+}
+#sanphamkhac{
+    display: flex;
+}
+#haisp{
+    margin: 10px 0 0 120px;
+}
+#tieude{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#sanpham a{
+    text-decoration: none;
+    color: #0058a2;
+    text-align: center;
+    font-size: 20px;
+}
+#sanpham del{
+    margin:0 5px 0 28px;
+}
+#sanpham a:hover{
+    text-decoration: underline;
+}
+#sanpham:last-child{
+    margin-top: 30px;
+} 
+#khungcenter{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#thietke{
+    display: flex;
+    margin-top: 10px;
+}
+#gioithieu h3{
+    padding: 5px 40px 30px 10px;
+}
+#gioithieu p{
+    padding: 0 100px 30px 10px;
+}
+#thietke:last-child{
+    margin-top: 52px;
+}
+#gioithieu a{
+    text-decoration: none;
+    color: #0058a2;
+}
+#gioithieu a:hover{
+    text-decoration: underline;
+}
+footer{
+    margin-top: 20px;
+    height: 250px;
+    background-color: #c2c2c2;
+    display: flex;
+}
+#danhmuc{
+    display: flex;
+}
+#danhmuc nav{
+    margin-left: 80px;
+}
+#danhmuc nav:last-child{
+    margin-left: 190px;
+}
+#danhsach{
+    padding-top: 5px;
+}
+#danhmuc p{
+    padding-top: 7px;
+}
+#danhsach h4{
+    padding-left: 200px;
+}
+#iconlh i{
+    font-size: 40px;
+}
+#lienhe{
+    margin:5px 0 30px 83px;
+}
+#lhsdt{
+    display: flex;
+}
+#lhsdt i{
+    font-size: 40px;
+}
+#lhsdt h3{
+    padding: 5px 0 0 5px;
+}
+#pictureikea img{
+    height: 250px;
+    margin-left: 88px;
+    width: 477px;
+}
+#danhmuc a{
+    text-decoration: none;
+    color: #0058a2;
+}
+#danhmuc a:hover{
+    text-decoration: underline;
+}
+#lhsdt p{
+    padding: 10px 0 0 5px;
+}

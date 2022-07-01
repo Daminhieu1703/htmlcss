@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab6_ex2.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+   <div class="khung">
+       <header>
+           <section class="logo">
+                <img src="picture2/logo.png" alt="">
+           </section>
+           <div class="menu">
+               <ul>
+                   <li><a href="">Trang Chủ</a></li>
+                   <li><a href="lab6_ex2_p2.html">Hồ Sơ</a></li>
+                   <li><a href="">Tiểu Sử</a></li>
+                   <li><a href="">Liên Hệ</a></li>
+               </ul>
+               <div class="search">
+                <form action="">
+                    <input type="text" placeholder="Tìm Kiếm">
+                    <a href=""><i class="fas fa-search"></i></a>
+                </form>
+           </div>
+           </div>
+       </header>
+       <main>
+          <article>
+            <div class="gioithieu">
+                <i class="far fa-id-card"></i>
+                <h1>Giới Thiệu</h1>
+               </div>
+               <section class="slide">
+                   <img src="picture2/profile1.jpg" alt="" id="slide">
+               </section>
+          </article>
+          <aside>
+              <section class="profile">
+                <section class="intro">
+                    <img src="picture2/profile5.jpg" alt="">
+                   <div class="name">
+                    <h2>Mr.H</h2>
+                    <p>Thiết Kế Website</p>
+                   </div>
+                </section>
+                <div class="text">
+                    <p>Tôi vui mừng tự giới thiệu rằng tôi tên là Minh Hiếu. Tôi 18 tuổi. Tôi sinh ra ở thủ đô Hà Nội. hiện tại tôi đang học tại trường cao đẳng FPT Polytechnic và chuyên ngành tôi đang theo học ở trường cao đẳng FPT Polytechnic là Thiết Kế Website .</p>
+                    <button>ĐỌC THÊM</button>
+                </div>
+              </section>
+              <section class="profile2">
+                  <div class="thongtin1">
+                     <div class="fullname">
+                        <h4>HỌ VÀ TÊN</h4>
+                        <i class="fas fa-user-alt"></i>
+                     </div>
+                     <h2>Đàm Minh Hiếu</h2>
+                  </div>
+                  <div class="thongtin2">
+                    <div class="birthday">
+                       <h4>NGÀY SINH</h4>
+                       <i class="far fa-calendar-alt"></i>
+                    </div>
+                    <h2>17/3/2002</h2>
+                 </div>
+                 <div class="thongtin3">
+                    <div class="mail">
+                       <h4>GMAIL</h4>
+                       <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>hieudmph14827@fpt.edu.vn</h3>
+                 </div>
+                 <div class="thongtin4">
+                    <div class="sdt">
+                       <h4>SỐ ĐIỆN THOẠI</h4>
+                       <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <h2>034.277.0723</h2>
+                 </div>
+                 <button>XEM THÊM THÔNG TIN VỀ TÔI</button>
+              </section>
+          </aside>
+       </main>
+       <footer>
+           <div class="gmail">
+               <h4>LIÊN HỆ GMAIL:</h4>
+               <div class="lh">
+                <i class="fas fa-envelope-square"></i>
+                <p>: hieudmph14827@fpt.edu.vn</p>
+               </div>
+           </div>
+           <div class="mxh">
+                <h4>LIÊN HỆ FACEBOOK:</h4>
+            <div class="face">
+                <i class="fab fa-facebook-square"></i>
+                <p>: https://www.facebook.com/daminhieu1703/</p>
+            </div>
+           </div>
+           <div class="mxh">
+            <h4>LIÊN HỆ INSTAGRAM:</h4>
+           <div class="insta">
+            <i class="fab fa-instagram-square"></i>
+            <p>: https://www.instagram.com/daminhieu1703/?hl=en</p>
+        </div>
+       </div>
+       </footer>
+   </div>
+   <script>
+       let slide = document.getElementById("slide");
+       let number = 0;
+       let mang_slide = ["picture2/profile1.jpg","picture2/profile2.jpg","picture2/profile3.jpg","picture2/profile4.jpg"]
+       let tudong = setInterval(() => {
+           number++;
+           if (number >= mang_slide.length) {
+               number = 0;
+           }
+           slide.src = mang_slide[number]
+       }, 1000);
+   </script>
+</body>
+</html>

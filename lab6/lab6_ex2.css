@@ -1,0 +1,286 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.khung{
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+header{
+    width: 1400px;
+}
+body{
+    background: url(picture2/body.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 1400px;
+    height: 800px;
+    display: grid;
+    grid-template-columns: 530px 1fr;
+}
+aside{
+    display: flex;
+}
+.logo{
+    width: 350px;
+    height: 200px;
+    margin-left: 500px;
+}
+.logo img{
+    width: 350px;
+    height: 200px;
+}
+.menu{
+    height: 70px;
+    border-top: 5px solid #168dc7;
+    border-bottom: 1px solid #c2c2c2;
+    display: flex;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: avo;
+    line-height: 60px;
+    padding: 35px 40px 0 40px;
+    font-size: 20px;
+}
+@font-face {
+    font-family: avo;
+    src: url(UTM\ Avo.ttf);
+}
+.menu ul li:hover{
+    background-color: #168dc7;
+}
+.menu ul li a:hover{
+    color: white;
+}
+@font-face {
+    font-family: bira;
+    src: url(SVN-Bira.ttf);
+}
+.menu .search{
+    line-height: 60px;
+    margin-left: 440px;
+}
+.menu .search input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #c2c2c2;
+    padding-left: 5px;
+}
+.menu .search input:focus{
+    outline: none;
+}
+.menu .search a i{
+    position: absolute;
+    right: 315px;
+    top: 225px;
+    font-size: 20px;
+    color: black;
+}
+.slide img{
+    width: 500px;
+    margin: 20px 0 0 30px;
+    border: 12px solid #168dc7;
+    border-style: ridge;
+}
+.gioithieu h1{
+    font-family: bira;
+    padding: 0 0 0 3px;
+    font-size: 40px;
+}
+.gioithieu{
+    display: flex;
+}
+.gioithieu i{
+    font-size: 50px;
+    padding: 10px 10px 0 30px;
+}
+.intro img{
+    width: 100px;
+    margin-right: 10px;
+}
+.profile{
+    margin: 80px 0 0 30px;
+}
+.intro{
+    display: flex;
+}
+.name h2{
+    font-family: bira;
+    font-size: 30px;
+}
+.name p{
+    padding-top: 10px;
+}
+.profile .text{
+    margin-top: 15px;
+    width: 300px;
+    border-top:1px solid #c2c2c2;
+}
+.profile .text p{
+    padding-top: 20px;
+}
+.text button{
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 1px solid #c2c2c2;
+    background-color: white;
+}
+.text button:hover{
+    background-color: #168dc7;
+    color: white;
+}
+.profile2{
+    margin: 80px 30px 0 30px;
+    border-top: 5px solid #168dc7;
+    width: 470px;
+}
+.profile2 .fullname{
+    display: flex;
+    margin: 10px 0 0 5px;
+    color: #c2c2c2;
+}
+.profile2 .fullname i{
+    font-size: 20px;
+    padding-left: 350px;
+}
+.thongtin1 h2{
+    padding: 20px 0 0 30px;
+}
+.thongtin1{
+    border-bottom: 1px solid #c2c2c2;
+    height: 101px;
+}
+.profile2 .birthday{
+    display: flex;
+    margin: 10px 0 0 5px;
+    color: #c2c2c2;
+}
+.profile2 .birthday i{
+    font-size: 20px;
+    padding-left: 350px;
+}
+.thongtin2 h2{
+    padding: 20px 0 0 30px;
+    color: #696969;
+    font-weight: 500;
+}
+.thongtin2{
+    border-bottom: 1px solid #c2c2c2;
+    height: 101px;
+}
+.profile2 .mail{
+    display: flex;
+    margin: 10px 0 0 5px;
+    color: #c2c2c2;
+}
+.profile2 .mail i{
+    font-size: 20px;
+    padding-left: 385px;
+}
+.thongtin3 h3{
+    padding: 20px 0 0 30px;
+    color: skyblue;
+    font-weight: 400;
+    font-style: italic;
+}
+.thongtin3{
+    border-bottom: 1px solid #c2c2c2;
+    height: 101px;
+}
+
+.profile2 .sdt{
+    display: flex;
+    margin: 10px 0 0 5px;
+    color: #c2c2c2;
+}
+.profile2 .sdt i{
+    font-size: 20px;
+    padding-left: 319px;
+}
+.thongtin4 h2{
+    padding: 20px 0 0 30px;
+}
+.thongtin4{
+    height: 101px;
+}
+.profile2 button{
+    width: 470px;
+    height: 80px;
+    background-color: #168dc7;
+    border: 7px solid #168dc7;
+    border-style: outset;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.profile2 button:hover{
+    background-color: white;
+    color: black;
+    border: 7px solid #168dc7;
+    border-style: outset;
+}
+footer{
+    height: 100px;
+    background-color: #696969;
+    display: flex;
+}
+.gmail h4{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0 0 50px;
+}
+.gmail p{
+    color: white;
+    font-size: 18px;
+    padding: 15px 5px 0 0;
+}
+.lh{
+    display: flex;
+}
+.lh i{
+    font-size: 30px;
+    color: #e91706;
+    padding: 15px 5px 0 50px;
+}
+.mxh{
+    margin-left: 100px;
+}
+.mxh h4{
+    font-size: 20px;
+    color: white;
+    padding: 10px 0 0 0;
+}
+.mxh p{
+    color: white;
+    font-size: 18px;
+    padding: 15px 5px 0 0;
+}
+.face{
+    display: flex;
+}
+.face i{
+    font-size: 30px;
+    color: #39599f;
+    padding: 15px 5px 0 0;
+}
+.mxh p{
+    color: white;
+    font-size: 18px;
+    padding: 15px 5px 0 0;
+}
+.insta{
+    display: flex;
+}
+.insta i{
+    font-size: 30px;
+    color: #d02c7a;
+    padding: 15px 5px 0 0;
+}

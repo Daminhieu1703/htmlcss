@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="khung">
+        <header>
+            <a href=""><img src="img/logo.png" alt="" class="logo"></a>
+            <div class="menu">
+                <div class="search">
+                    <form action="">
+                        <input type="text" placeholder="Tìm Kiếm">
+                        <a href=""><i class="fas fa-search"></i></a>
+                    </form>
+                    <a href=""><img src="img/covietnam.png" alt=""></a>
+                    <a href=""><img src="img/conuocanh.png" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="">QUÁN CÀ PHÊ</a></li>
+                    <li><a href="">THỰC ĐƠN</a></li>
+                    <li><a href="tinTuc.html">TIN TỨC</a></li>
+                    <li><a href="">TRÁCH NHIỆM CỘNG ĐỒNG</a></li>
+                    <li><a href="gioiThieu.html">VỀ CHÚNG TÔI</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="bannernext">
+                <div class="dieuhuong">
+                    <i class="fas fa-chevron-circle-left" onclick="prev()"></i>
+                    <i class="fas fa-chevron-circle-right" onclick="next()"></i>
+                </div>
+                <img src="img/banner1.jpg" alt="" id="slide">
+            </div>
+                <section class="content-1">
+                    <a href=""><img src="img/content1.png" alt=""></a>
+                    <div class="text">
+                        <h1>CÀ PHÊ ESPRESSO CỦA CHÚNG TÔI, LATTE CỦA BẠN</h1>
+                        <p>Cà phê espresso đậm vị và bốc hơi sữa - ngon tuyệt hảo khi thưởng thức riêng hay khi thêm  đường.Chúng tôi mong mang đến cho bạn những trải nghiệm đáng nhớ mỗi lần đến Highlands Coffee®. Hãy chia sẻ với chúng tôi để chúng tôi có thể mang đến cho bạn những trải nghiệm tuyệt vời hơn thế. </p>
+                        <div class="click-1">
+                            <a href="">Lấy phần của bạn</a><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                </section>
+                <section class="content-2">
+                    <div class="text">
+                        <h1>CƠ HỘI DÀNH CHO BẠN VÀ MỌI NGƯỜI</h1>
+                        <p>Không chỉ là nhân viên,mà còn là cộng sự của chúng tôi và hãy đến đây trải nghiệm,học hỏi những điều mới.Với sứ mệnh trở thành thương hiệu cà phê Việt Nam dẫn đầu, Highlands Coffee® luôn tìm kiếm những ứng cử viên tiềm năng có chung niềm đam mê và nỗ lực cùng chúng tôi vươn tới thành công. Chúng tôi luôn chào đón các bạn gia nhập vào đội ngũ chuyên nghiệp của gia đình Highlands Coffee®. </p>
+                        <div class="click-2">
+                            <a href="">Tham gia cùng chúng tôi</a><i class="fas fa-angle-right"></i><i class="fas fa-angle-right"></i>
+                        </div>
+                    </div>
+                    <a href=""><img src="img/content2.jpg" alt=""></a>
+                </section>
+            <img src="img/bannerbottom.jpg" alt="" class="bannerbottom">
+        </main>
+        <footer>
+           <div class="lh">
+            <div class="lhweb">
+                <img src="img/f.png" alt="">
+                <img src="img/i.png" alt="">
+                <img src="img/t.png" alt="">
+                <img src="img/y.png" alt="">
+            </div>
+            <div class="lhtt">
+                <p>© 2018 Highlands Coffee. All rights reserved</p>
+                <div class="dk">
+                    <img src="img/fly.png" alt=""><p>Đăng ký để nhận bản tin</p>
+                </div>
+                <div class="dk">
+                    <img src="img/g.png" alt=""><p>customerservice@highlandscoffee.com.vn</p>
+                </div>
+                <p></p>
+            </div>
+           </div>
+           <div class="service">
+               <div class="vechungtoi">
+                   <h2>VỀ CHÚNG TÔI</h2>
+                   <a href="">Di sản</a> <br>
+                   <a href="">Công ty</a> <br>
+                   <a href="">Cơ hội nghề nghiệp</a> 
+               </div>
+               <div class="vechungtoi">
+                <h2>DỊCH VỤ KHÁCH HÀNG</h2>
+                <a href="">Câu hỏi thường gặp</a>
+            </div>
+            <div class="vechungtoi">
+                <h2>LIÊN KẾT NHANH</h2>
+                <a href="">Di sản</a> <br>
+                <a href="">Bộ định vị cửa hàng</a>
+            </div>
+           </div>
+        </footer>
+    </div>
+    <script>
+        let number = 0 
+        let slider = ["img/banner1.jpg","img/banner2.png","img/banner3.png"]
+        let slide = document.getElementById("slide")
+        let tudong
+        function next() {
+            number++
+            if (number>=slider.length) {
+                number = 0
+            }
+            slide.src = slider[number]
+        }
+        function prev() {
+            number--
+            if (number<0) {
+                number = slider.length-1
+            }
+            slide.src = slider[number]
+        }
+        tudong = setInterval(() => {
+            number++
+            if (number>=slider.length) {
+                number = 0
+            }
+            slide.src = slider[number]
+        },1000);
+    </script>
+</body>
+</html>

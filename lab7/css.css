@@ -1,0 +1,71 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: #c2c2c2;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+main{background-color: white;width: 980px;margin: auto;padding:0 20px 0 20px;}
+.header .picture img{width: 200px;}
+.menu nav ul li{display: inline;padding-right: 19px;}
+.header{
+    display: flex;
+}
+.menu nav ul li a{
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+}
+.menu nav ul li a:hover{
+    border-bottom: 3px solid #999999;
+}
+.menu-and-search{
+    margin: 10px 0 0 100px;
+}
+.search form input{
+    width: 340px;
+    height: 23px;
+    border-radius: 10px;
+    border: 1px solid #c2c2c2;
+}
+.search form{margin-left: 300px;}
+.search form button{
+    margin: 2px 0 0 217px;
+    width: 120px;
+    border-radius: 10px;
+    background-color:#dcdcdc;
+    color: red;
+    border: 1px solid #dcdcdc;
+}
+.search form input:focus{
+    outline: 0;
+}
+.search form button,input{
+    position: absolute;
+}
+.menu{
+    margin: 90px 0 0 80px;
+}
+.main .picture img{
+    width: 940px;
+    margin-top: 30px;
+}
+.main .text p{
+    padding-top: 30px;
+}
+.main .text h1{
+    font-size: 27px;
+    padding-top: 25px;
+}
+.main .text{
+    color: #999999;
+}
+.main .text h1,h2{
+    font-weight: 400;
+}
+.footer{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #999999;
+    height: 50px;
+    color: #999999;
+}
+.footer .text{
+    padding-top: 8px;
+}

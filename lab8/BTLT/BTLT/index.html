@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="top-0">
+                <div class="logo">
+                    <h4>Nội Địa</h4>
+                    <h1>Hàng Nhật</h1>
+                </div>
+                <section class="search">
+                    <form action="">
+                        <input type="text">
+                        <input type="submit" value="Tìm Kiếm">
+                    </form>
+                </section>
+            </div>
+            <section class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="">TRANG CHỦ</a></li>
+                        <li><a href="">MÁY LỌC KHÔNG KHÍ</a></li>
+                        <li><a href="">MÁY HÚT ẨM</a></li>
+                        <li><a href="">HÀNG NHẬT KHÁC</a></li>
+                        <li><a href="">TIN TỨC</a></li>
+                        <li><a href="">LIÊN HỆ</a></li>
+                    </ul>
+                </nav>
+                <section class="shopping">
+                    <i class="fas fa-shopping-cart"></i>
+                </section>
+            </section>
+        </header>
+        <section class="banner">
+            <img src="img/banner.png" alt="" id="img">
+        </section>
+        <main>
+            <section class="sanpham">
+                <img src="img/tivi.png" alt="">
+                <section class="text">
+                    <h1>Tivi Panasonic</h1>
+                    <h3>20.000.000đ</h3>
+                    <p>Đầu tiên, bạn hãy truy cập vào phần Settings (cài đặt) trên tivi và chọn Standard mode (chế độ tiêu chuẩn). Tiếp theo, người dùng cần tắt tùy chọn Dynamic Contrast (độ tương phản động) vì tính năng này có xu hướng làm giảm chi tiết của những khu vực tối. 
+                        Ngoài ra, bạn cũng nên truy cập vào mục Auto Motion Plus, điều chỉnh thông số Judder Reduction xuống mức 5 và Blur Reduction xuống 8. Cuối cùng, chuyển Color Space thành Native (tự nhiên) và Flesh Tone thành 0.</p>
+                </section>
+            </section>
+            <section class="sanpham1">
+                <section class="text">
+                    <h1>Tủ Lạnh Panasonic</h1>
+                    <h3>25.000.000đ</h3>
+                    <p>Microsoft đã kết thúc buổi giới thiệu E3 2021 của họ bằng một sản phẩm khá thú vị: tủ lạnh mini hình Xbox Series X được phát hành vào kỳ nghỉ năm 2021 này.
+                        Microsoft hứa hẹn rằng Xbox Mini Fridge sắp ra mắt là “tủ lạnh mini mạnh nhất thế giới” và sử dụng kiến trúc làm mát tốc độ Xbox. Một đoạn video ngắn giới thiệu về chiếc tủ lạnh mini Xbox tiết lộ, nó có thể chứa chứa được khoảng 10 lon nước 330ml.</p>
+                </section>
+                <img src="img/tủ lạnh.jpg" alt="">
+            </section>
+            <section class="sanpham">
+                <img src="img/máy giặt.jpg" alt="">
+                <section class="text">
+                    <h1>Máy Giặt Panasonic</h1>
+                    <h3>10.000.000đ</h3>
+                    <p>Microsoft đã kết thúc buổi giới thiệu E3 2021 của họ bằng một sản phẩm khá thú vị: tủ lạnh mini hình Xbox Series X được phát hành vào kỳ nghỉ năm 2021 này.
+                        Microsoft hứa hẹn rằng Xbox Mini Fridge sắp ra mắt là “tủ lạnh mini mạnh nhất thế giới” và sử dụng kiến trúc làm mát tốc độ Xbox. Một đoạn video ngắn giới thiệu về chiếc tủ lạnh mini Xbox tiết lộ, nó có thể chứa chứa được khoảng 10 lon nước 330ml.</p>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <section  class="bottom">
+                <div class="hinhtronto"></div>
+               <div class="text">
+                <p>Nhiều chuyên gia bảo mật cho rằng chiếc quạt mini dùng cổng USB phát cho báo chí</p>
+                <p>chứa các công cụ nghe lén hoặc thu thập dữ liệu.</p>
+               </div>
+               <section class="btn">
+                   <ul>
+                       <li><button></button></li>
+                       <li><button style="background-color: black;"></button></li>
+                       <li><button></button></li>
+                       <li><button></button></li>
+                       <li><button></button></li>
+                       <li><button></button></li>
+                   </ul>
+               </section>
+            </section>
+        </footer>
+    </div>
+    <script>
+        var list_img = ["img/banner.png","img/banner1.png"]
+        var number = 0;
+        var img = document.getElementById("img");
+        var tudong = setInterval(() => {
+            number++;
+            if (number>=list_img.length) {
+                number = 0
+            }
+            img.src = list_img[number]
+        }, 1000);
+    </script>
+</body>
+</html>

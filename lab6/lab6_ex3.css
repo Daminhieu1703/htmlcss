@@ -1,0 +1,286 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.khung{
+    margin: auto;
+    width: 1899px;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu{
+    background-color: #f8cd26;
+    height: 60px;
+}
+main{
+    width: 1899px;
+}
+.menu ul{
+    display: flex;
+    padding-left: 370px;
+}
+.menu ul li{
+    list-style: none;
+    line-height: 60px;
+    padding:0 20px 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu ul li:hover{
+    background-color: white;
+}
+.top-1{
+    display: flex;
+    background-color: black;
+}
+.top-1 img{
+    margin:5px 0 0 700px;
+    width: 420px;
+}
+.top-1 .search{
+    margin: 25px 0 0 150px;
+}
+.top-1 .search input{
+    height: 40px;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid #eeeeee;
+    background-color: #eeeeee;
+    padding-left: 5px;
+    font-size: 20px;
+    box-shadow:  0 0px 4px 3px #dcdcdc;
+}
+.top-1 .search input:focus{
+    outline: 0;
+}
+.top-1 .search i{
+    font-size: 30px;
+    position: absolute;
+    right: 340px;
+    top: 28px;
+    color: #696969;
+}
+.one-in-2{
+    padding:20px;
+    border-bottom: 1px solid #c2c2c2;
+}
+.khuyenmai ul li{
+    display: flex;
+    padding-left: 20px;
+}
+.chon{
+    padding: 0 0 20px 0;
+}
+.khuyenmai ul li input{
+    margin-top: 20px;
+    transform: scale(1.5);
+    color: #f8cd26;
+    background-color: #f8cd26;
+
+}
+.khuyenmai{
+    border: 1px solid #c2c2c2;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.khuyenmai ul li .giam{
+    padding: 13px 0 0 10px;
+}
+.chonmau{
+    display: flex;
+    margin-top: 20px;
+}
+.mau{
+    border: 1px solid #c2c2c2;
+    height: 170px;
+    margin-right: 50px;
+    border-radius: 10px;
+}
+.chonmau .mau img{
+    width: 100px;
+    margin: 10px;
+}
+.chonmau .mau h5{
+    padding-left: 33px;
+}
+.top-2{
+    display: flex;
+}
+.slide-picture img{
+    width: 820px;
+    height: 870px;
+    margin: 10px
+}
+.slide-picture{
+    border: 1px solid #c2c2c2;
+    width: 840px;
+    height: 890px;
+    margin: 0px 0 0 250px;
+    border-radius: 10px;
+}
+.thongtin{
+    margin: 50px 150px 0 30px;
+}
+.slide h1{
+    font-size: 32px;
+    padding: 20px 0 10px 250px;
+}
+.thongtin h2{
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+}
+.name{
+    display: flex;
+}
+.name p{
+    padding: 35px 0 10px 10px;
+    color: #696969;
+}
+.gia del{
+    font-size: 23px;
+    padding: 28px 0 0 10px;
+}
+.gia{
+    display: flex;
+}
+.one{
+    font-size: 24px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid #f8cd26;
+    background-color: #f8cd26;
+    border-radius: 10px;
+}
+.one a{
+    text-decoration: none;
+    color: black;
+}
+.two a{
+    text-decoration: none;
+    color: white;
+}
+.two{
+    font-size: 15px;
+    width: 248px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.two:hover{
+    background-color: #f8cd26;
+    border: 1px solid #f8cd26;
+}
+.two a:hover{
+    color: black;
+}
+.one:hover{
+    border: 1px solid black;
+    background-color: black;
+}
+.one a:hover{
+    color: white;
+}
+.button{
+    margin: 30px 0 0 0;
+}
+.border-part2 p{
+    padding: 2px 0 0 0;
+}
+.border-part2{
+    border: 1px solid #c2c2c2;
+    width: 600px;
+    margin-top: 40px;
+    height: 300px;
+    border-radius: 10px;
+
+}
+.icon{
+    display: flex;
+    margin: 20px 0 0 20px;
+}
+.icon i{
+    font-size: 50px;
+    margin-right: 10px;
+}
+.icon2 i{
+    font-size: 37px;
+    margin: 5px 10px 0 22px;
+}
+.icon2{
+    margin-top: 20px;
+    display: flex;
+}
+.icon3 i{
+    font-size: 50px;
+    margin: 0 15px 0 22px;
+}
+.icon3{
+    margin-top: 20px;
+    display: flex;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #c2c2c2;
+}
+.border-bottom h2{
+    color: black;
+    padding: 20px 0 0 0;
+}
+.border-bottom{
+    margin-left: 200px;
+    border-bottom: 3px solid black;
+    width: 443px;
+}
+.map2{
+    color: black;
+    display: flex;
+    margin-top: 20px;
+}
+.map2 i{
+    font-size: 30px;
+    margin:0 10px 0 220px;
+}
+.dichvu .border-bottom{
+    width: 100px;
+}
+.dichvu .text-bottom{
+    padding-top: 4px;
+}
+.dichvu .text-bottom a{
+    color: black;
+    text-decoration: none;
+}
+.hotro .border-bottom{
+    width: 248px;
+}
+.hotro p{
+    padding: 20px 0 0 220px;
+    color: black;
+}
+iframe{
+    margin: 20px 0 0 220px;
+}
+.bottom-big{
+    background-color: #63788d;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+    display: flex;
+}
+.bottom-big p{
+    font-size: 15px;
+    padding-left: 300px;
+}
+.bottom-big p:last-child{
+    margin-left: 400px;
+}

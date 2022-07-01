@@ -1,0 +1,513 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+.khung{
+    width: 1400px;
+    margin: auto;
+    background-color: white;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c2c2c2;
+}
+.top-1{
+    height: 50px;
+    display: flex;
+    background-color: #dcdcdc;
+}
+.icon-and-search{
+    margin-left: 1030px;
+    display: flex;
+}
+.top-1 .mxh a{
+    font-size: 30px;
+    line-height: 50px;
+    color: #1199f6;
+}
+.top-1 .mxh a:last-child{
+    color: #ff0000;
+}
+.top-1 form{
+    margin-left: 10px;
+    display: flex;
+}
+.top-1 form .search{
+    border: 1px solid #dcdcdc;
+    height: 50px;
+    width: 50px;
+    background-color: #f90617;
+    position: absolute;
+    margin-left: 171px;
+}
+.top-1 form input{
+    height: 50px;
+    width: 221px;
+    border: 1px solid #dcdcdc;
+    font-size: 20px;
+    padding-left: 5px;
+
+}
+.logo{
+    background-color: white;
+    height: 120px;
+}
+.top-1 form .search i{
+    font-size: 30px;
+    margin: 8px;
+    color: white;
+}
+.top-1 form input:focus{
+    outline: 0;
+}
+.top-1 p{
+    line-height: 50px;
+    margin-left: 10px;
+}
+.menu{
+    height: 70px;
+    background-color:#2d2d2d;
+    display: flex;
+    border-bottom: 5px solid #f90617;
+    top: 130px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    line-height: 70px;
+}
+.menu ul li:hover{
+    background-color: #f90617;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding:0 30px 0 30px;
+    display: block;
+}
+.random{
+    width: 70px;
+    height: 65px;
+    background-color: #777777;
+    margin-left: 780px;
+}
+.random:hover{
+    background-color: #c2c2c2;
+    opacity: 1.8;
+}
+.random i{
+    font-size: 30px;
+    line-height: 70px;
+    padding-left: 20px;
+    color: white;
+}
+main{
+    background-color: white;
+    padding: 30px 30px 0 20px;
+    height: 2250px;
+    display: grid;
+    grid-template-columns: 900px 1fr;
+}
+.content{
+    border: 1px solid #c2c2c2;
+    width: 900px;
+    box-shadow:  0px 0px 4px 3px #dcdcdc;
+}
+.content h1{
+    padding: 30px 0 0 30px;
+    font-size: 35px;
+    font-weight: 400;
+}
+.folder-and-eyes{
+    padding: 15px 0 0 0;
+    border-bottom:1px solid #c2c2c2;
+    width: 840px;
+    margin-left: 30px;
+    height: 50px;
+}
+.folder-and-eyes a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: #777777;
+}
+.folder-and-eyes a:hover{
+    border-bottom:1px solid #777777;
+    border-bottom-style:dotted;
+}
+.link{
+    padding: 10px 0 0 30px;
+    display: flex;
+}
+.link .face{
+    width: 100px;
+    height: 30px;
+    background-color: #39599f;
+    border-radius: 2px;
+}
+.link .face i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.link .face a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link .twitter{
+    width: 100px;
+    height: 30px;
+    background-color: #1199f6;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.link .twitter i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.link .twitter a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link .stumbleupon{
+    width: 140px;
+    height: 30px;
+    background-color: #eb4924;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.link .stumbleupon i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.link .stumbleupon a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link .linkedin{
+    width: 100px;
+    height: 30px;
+    background-color: #f90617;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.link .linkedin i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.link .linkedin a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link .pinterest{
+    width: 100px;
+    height: 30px;
+    background-color: #e00707;
+    margin-left: 20px;
+    border-radius: 2px;
+}
+.link .pinterest i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.link .pinterest a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.link .pinterest:hover{
+    background-color: #2d2d2d;
+}
+.link .linkedin:hover{
+    background-color: #2d2d2d;
+}
+.link .stumbleupon:hover{
+    background-color: #2d2d2d;
+}
+.link .twitter:hover{
+    background-color: #2d2d2d;
+}
+.link .face:hover{
+    background-color: #2d2d2d;
+}
+.text-1{
+    margin: 15px 30px 0 30px;
+}
+.text-1 img{
+    width: 840px;
+    margin-bottom: 15px;
+}
+.text-1 p{
+    font-size: 18px;
+}
+.text-2{
+    margin: 30px 30px 0 30px;
+    display: flex;
+}
+.text-2 img{
+    width: 400px;
+}
+.text-of-text-2{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.text-3{
+    display: flex;
+    margin: 40px 30px 0 30px;
+}
+.text-3 img{
+    width: 400px;
+}
+.text-of-text-3{
+    padding-right: 20px;
+    font-size: 18px;
+}
+.text-4{
+    display: flex;
+    margin: 40px 30px 0 30px;
+}
+.text-4 img{
+    width: 400px;
+}
+.text-of-text-4{
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.share{
+    display: flex;
+    border-bottom:5px solid #f90617;
+    width: 900px;
+    background-color: #dcdcdc;
+}
+.share h1{
+    line-height: 50px;
+    padding-left: 15px;
+    color: white;
+}
+.share .face{
+    width: 100px;
+    height: 30px;
+    background-color: #39599f;
+    border-radius: 2px;
+    margin: 10px 0 0 20px;
+}
+.share .face i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.share .face a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.share .twitter{
+    width: 100px;
+    height: 30px;
+    background-color: #1199f6;
+    margin-left: 20px;
+    border-radius: 2px;
+    margin: 10px 0 0 20px;
+}
+.share .twitter i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.share .twitter a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.share .stumbleupon{
+    width: 140px;
+    height: 30px;
+    background-color: #eb4924;
+    margin-left: 20px;
+    border-radius: 2px;
+    margin: 10px 0 0 20px;
+}
+.share .stumbleupon i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.share .stumbleupon a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.share .linkedin{
+    width: 100px;
+    height: 30px;
+    background-color: #f90617;
+    margin-left: 20px;
+    border-radius: 2px;
+    margin: 10px 0 0 20px;
+}
+.share .linkedin i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.share .linkedin a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.share .pinterest{
+    width: 100px;
+    height: 30px;
+    background-color: #e00707;
+    margin-left: 20px;
+    border-radius: 2px;
+    margin: 10px 0 0 20px;
+}
+.share .pinterest i{
+    color: white;
+    line-height: 30px;
+    padding-left: 10px;
+}
+.share .pinterest a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.share .pinterest:hover{
+    background-color: #2d2d2d;
+}
+.share .linkedin:hover{
+    background-color: #2d2d2d;
+}
+.share .stumbleupon:hover{
+    background-color: #2d2d2d;
+}
+.share .twitter:hover{
+    background-color: #2d2d2d;
+}
+.share .face:hover{
+    background-color: #2d2d2d;
+}
+.share-of-share{
+    width: 90px;
+    height: 50px;
+    background-color: #f90617;
+}
+.ctbqt{
+    padding-top: 15px;
+    border-bottom: 5px solid #f90617;
+    width: 900px;
+}
+.ctbqt .ctbqt-of-ctbqt{
+    width: 300px;
+    height: 50px;
+    background-color: #f90617;
+}
+.ctbqt .ctbqt-of-ctbqt h1{
+    line-height: 50px;
+    padding-left: 10px;
+    color: white;
+}
+.tinkhac{
+    border: 1px solid #c2c2c2;
+    margin-top: 10px;
+    width: 900px;
+    height: 250px;
+    display: flex;
+    border-bottom: 5px solid #f90617;
+    box-shadow:  0 0px 4px 3px #dcdcdc;
+}
+.tin1{
+    width: 300px;
+    height: 220px;
+    margin: 10px 20px 0 20px;
+}
+.tin1 p{
+    padding: 10px 10px 0 10px;
+    font-size: 18px;
+    color: black;
+}
+.tin1 a{
+    text-decoration: none;
+}
+.tin1 a:hover{
+    text-decoration: underline;
+}
+.tin1 img{
+    width: 250px;
+    margin-left: 3px;
+}
+footer{
+    height: 70px;
+    background-color: #2d2d2d;
+    display: flex;
+}
+footer h4{
+    line-height: 70px;
+    padding-left: 20px;
+    color: white;
+    font-weight: 400;
+}
+footer .mxhp2{
+    line-height: 70px;
+    font-size: 30px;
+    padding-left: 950px;
+}
+footer .mxhp2 a{
+    color: #1199f6;
+}
+footer .mxhp2 a:last-child{
+    color: #ff0000;
+}
+.tinmoinhat{
+    box-shadow:  0 0px 4px 3px #dcdcdc;
+    margin-left: 50px;
+    height: 620px;
+    border-bottom: 5px solid #f90617;
+}
+.tieude{
+    width: 170px;
+    height: 50px;
+    background-color: #f90617;
+}
+.tieude h2{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+}
+.tinmoinhat-of-tinmoinhat{
+    border-bottom: 5px solid  #f90617;
+    margin:0 0 10px 50px;
+}
+.tinmoi img{
+    width: 200px;
+    margin: 15px 0 0 10px;
+}
+.tinmoi{
+    display: flex;
+}
+.tinmoi .text-tinmoi{
+    padding: 15px 10px 0 10px;
+}
+.text-tinmoi a{
+    text-decoration: none;
+    color: black;
+}
+.text-tinmoi a:hover{
+    text-decoration: underline;
+}
+.text-tinmoi p{
+    text-decoration: none;
+    color: #c2c2c2;
+    padding-top: 10px;
+}
+.content-right .tinmoinhat:last-child{
+    height: 326px;
+}

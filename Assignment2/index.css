@@ -1,0 +1,235 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.khung{
+    width: 100%;
+    margin: auto;
+}
+header{
+    height: 150px;
+    background-color: #523528;
+    display: flex;
+}
+.logo{
+    height: 110px;
+    width: 150px;
+    margin: 20px 0 0 200px;
+}
+ul{
+    padding: 40px 0 0 150px;
+}
+ul li{
+    display: inline;
+    padding-right: 50px;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+ul li a:hover{
+    text-decoration: underline;
+}
+input{
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+}
+input:focus{
+    outline: 0;
+}
+form{
+    margin:20px 0 0 900px;
+}
+a i{
+    position: absolute;
+    right: 255px;
+    top: 26px;
+    font-size: 30px;
+    color: #523528;
+}
+.search{
+    display: flex;
+}
+.search img{
+    margin: 20px 0 0 20px;
+    height: 40px;
+    width: 60px;
+}
+#slide{
+    width: 100%;
+    height: 609px;
+}
+.dieuhuong{
+    position: absolute;
+    margin: 300px 0 0 10px;
+    opacity: 0.6;
+}
+.dieuhuong i{
+    font-size: 50px;
+}
+.dieuhuong i:hover{
+    color: #523528;
+}
+.dieuhuong i:last-child{
+    margin-left: 1772px;
+}
+.number-picture{
+    position: absolute;
+    bottom: 22%;
+    margin-left: 49%;
+}
+.number-picture button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.6;
+}
+.number-picture button:hover{
+    background-color: #523528;
+}
+.content-1{
+    display: flex;
+}
+.content-1 p{
+    font-size: 20px;
+    color: white;
+    padding: 30px 210px 0 200px;
+}
+.content-1 .text{
+    margin-top: 70px;
+}
+.content-1 h1{
+    color: white;
+    padding: 30px 140px 0 200px;
+    font-size: 37px;
+}
+.content-1 img{
+    margin: 40px 0 0 150px;
+    width: 700px;
+    height: 500px;
+}
+main{
+    background-color: #523528;
+    height: 2360px;
+}
+.content-1 .text a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-style: italic;
+}
+.click-1{
+    margin: 110px 0 0 800px;
+    border-bottom: 1px solid white;
+    width: 182px;
+    border-bottom-style: dotted;
+}
+.click-1 i{
+    color: white;
+}
+.content-2{
+    display: flex;
+    margin-top: 70px;
+}
+.content-2 p{
+    font-size: 20px;
+    color: white;
+    padding: 30px 200px 0 135px;
+}
+.content-2 .text{
+    margin-top: 70px;
+}
+.content-2 h1{
+    color: white;
+    padding: 30px 200px 0 135px;
+    font-size: 37px;
+}
+.content-2 img{
+    margin: 40px 150px 0 0;
+    width: 700px;
+    height: 500px;
+}
+.click-2{
+    margin: 150px 0 0 730px;
+    border-bottom: 1px solid white;
+    width: 244px;
+    border-bottom-style: dotted;
+}
+.click-2:hover{
+    background-color: #c2c2c2;
+}
+.click-1:hover{
+    background-color: #c2c2c2;
+}
+.click-2 i{
+    color: white;
+}
+.content-2 .text a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding-right: 10px;
+    font-style: italic;
+}
+.bannerbottom{
+    width: 100%;
+    margin-top: 40px;
+}
+footer{
+    width: 100%;
+    height: 400px;
+    background: url(img/bottom.png) no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    color: white;
+}
+.lhweb{
+    padding: 145px 0 0 600px;
+}
+.lhweb img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.lhweb img:first-child{
+    border-radius: 8px;
+}
+.lhweb img:last-child{
+    width: 70px;
+}
+.lhtt img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.lhtt{
+    padding:70px 0 0 400px;
+}
+.dk{
+    display: flex;
+    padding-top: 33px;
+}
+.lh{
+    display: flex;
+}
+.vechungtoi a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: sub;
+}
+.vechungtoi a:hover{
+    text-decoration: underline;
+}
+.vechungtoi {
+     padding: 20px 150px 0 0;
+}
+.service{
+    display: flex;
+    padding-left: 610px;
+}

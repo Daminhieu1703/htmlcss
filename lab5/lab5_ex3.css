@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    background: #999999;
+}
+.container{
+    width: 770px;
+    height: 750px;
+    margin: auto;
+    background: rgb(255, 255, 255);
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    margin: 0 20px 0;
+}
+.TD{
+    font-family: Tahoma;
+    font-size: 10px;
+    text-align: right;
+    margin: 60px 15px 0;
+
+}
+.ND{
+    font-family: Tahoma;
+    font-size: 11px;
+    margin: 60px 0 0;
+}
+.Aprilia{
+    font-family: Tahoma;
+    font-size: 80px;
+    margin: 180px 0 0;
+}

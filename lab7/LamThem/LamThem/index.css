@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.container{
+    width: 100%;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 45px;
+    background: #cc9933;
+}
+header h1{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 230px;
+}
+menu ul{
+    padding: 0 230px;
+}
+menu ul li{
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 0 10px;
+}
+menu ul li a{
+    color: #292929;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px 0;
+
+}
+menu ul li a:hover{
+    color:#cc9933;
+}
+.trong{
+    height: 90px;
+    background: #cc9933;
+    margin: -4px 0 0;
+}
+.anh{
+    height: 230px;
+    background: rgb(255, 255, 255);
+    margin-left: 360px;
+}
+.anh img{
+    margin: 20px 30px 0 0;
+}
+main{
+    background: #ebe7de;
+    height: 1100px;
+    padding-top: 40px;
+}
+.content{
+    background: rgb(255, 255, 255);
+    width: 945px;
+    height: 1000px;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+.box1{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    border-bottom: 3px solid black;
+    height: 370px;
+}
+.box1 img{
+    padding: 30px 30px 0 0;
+}
+.box2 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.box1 .text{
+    padding-top: 60px;
+}
+.nut{
+    padding: 50px 140px;
+}
+button{
+    background: #cc9933;
+    width: 90px;
+    height: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+button p{
+    color: white;
+}
+.anhSP{
+    display: flex;
+    margin-top: 40px;
+}
+.anhSP1{
+    display: flex;
+    margin-top: 60px;
+}
+.anhSP h3{
+    font-size: 30px;
+    padding-bottom: 5px;
+}
+.anhSP h4{
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.anhSP .text{
+    padding:0 240px 0 10px;
+}
+
+.anhSP1 h3{
+    font-size: 30px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.anhSP1 h4{
+    color: black;
+    font-weight: 400;
+    font-size: 25px;
+    padding-bottom: 5px;
+    text-align: right;
+}
+.anhSP1 .text{
+    text-align: right;
+    padding:0 10px 0 240px;
+}
+.sp img{
+    border: 1px solid #000000;
+}
+footer{
+    height: 88px;
+    background: #cc9933;
+    margin: -4px 0 0;
+}
+footer p{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 30px 230px;
+}

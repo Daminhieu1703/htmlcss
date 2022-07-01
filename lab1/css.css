@@ -1,0 +1,178 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+#khung{
+    width: 100%;
+    margin: auto;
+    font-family: tahoma, arial, helvetica;
+}
+header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+
+}
+#logo{
+    margin: 10px;
+}
+nav{
+    display: flex;
+}
+#search{
+    margin-top: 21px;
+}
+input{
+    width: 340px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+button{
+    height: 30px;
+    width: 70px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+input:focus{
+    outline:0;
+}
+#menu{
+   display: flex;
+   margin-top: 25px;
+}
+ul{
+    margin-left: 10px;
+    margin-top: 4px;
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+li{
+    display: inline;
+    padding-right: 30px;
+}
+#lh{
+    border-top: 3px solid green;
+    border-bottom: 1px solid #c2c2c2;
+    height: 40px;
+    display: grid;
+    grid-template-columns: 1fr 400px;
+}
+#lhonl{
+    display: flex;
+}
+#web{
+    margin-top: 10px;
+}
+#date{
+    line-height: 40px;
+    margin-left: 20px;
+    color: #c2c2c2;
+}
+#number{
+    display: flex;
+    margin: 10px 0 0 11px;
+    color: black;
+}
+#split{
+    margin: 0 5px 0 0;
+}
+main{
+    width: 980px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 300px;
+}
+main article{
+    margin-left: 290px;
+    margin-right: 10px;
+}
+#giaitri{
+    width: 980px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 1px solid #c2c2c2;
+    display: flex;
+}
+#giaitri a h5{
+    padding: 9px 0 0 49px;
+}
+#tieude{
+    width: 980px;
+    margin: auto;
+    margin-top: 20px;
+}
+#theloai a{
+    font-weight: bold;
+    padding-right: 5px;
+    color: #c2c2c2;
+}
+#theloai a:hover{
+    color: green;
+    text-decoration: none;
+}
+#tieude h1{
+    padding-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+#theloai{
+    display: flex;
+    color: #c2c2c2;
+}
+#phim{
+    display: flex;
+}
+#phim a{
+    padding-left: 5px;
+    font-weight: bold;
+}
+u{
+    color: blue;
+}
+footer{
+    width: 100%;
+    background-color: #F5F5F5;
+    height: 150px;
+    margin-top:20px;
+    display: flex;
+}
+aside h3{
+    border: 1px solid green;
+    color: white;
+    width: 85px;
+    text-align: center;
+    background-color:green;
+}
+#tddt p{
+    border-bottom: 5px solid green;
+    width: 220px;
+}
+#tddt{
+    display: flex;
+}
+#tinmoi p{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width: 36px;
+    height: 22px;
+}
+#tinmoi{
+    display: flex;
+    border-bottom: 1px solid #c2c2c2;
+    margin-top:30px;
+}
+#logofooter img{
+    margin: 40px 0 0 200px;
+}
+#ngaycap{
+    font-size: 12px;
+    padding:50px 0 0 20px;
+}

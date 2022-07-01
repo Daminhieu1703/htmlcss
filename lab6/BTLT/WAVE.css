@@ -1,0 +1,89 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    height: 900px;
+    background-color: white;
+    box-shadow: 0 0 3px 4px #c2c2c2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.name{
+    margin: 20px;
+    border-top: 5px solid black;
+}
+.name h5{
+    text-align: center;
+    padding-top: 10px;
+}
+article{
+    border-right: 1px solid #c2c2c2;
+    box-shadow: 0 0 3px 4px #c2c2c2;
+}
+.alltext{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 30px;
+    border-bottom: 5px solid skyblue;
+}
+.tieude{
+    padding: 170px 30px 0 30px;
+}
+.tieude h1{
+    font-size: 50px;
+    text-align: center;
+    color:skyblue;
+}
+.text{
+     margin-right:0 0 10px 10px;
+     text-align: right;
+}
+.text1{
+    margin:0 0 10px 20px;
+    text-align: left;
+}
+.anh2{
+    width: 400px;
+    margin-left: 160px;
+}
+.anh3{
+    margin: 300px 0 0 50px;
+}
+.anh1{
+    width: 300px;
+    margin-top: 200px;
+    border: 10px solid white;
+}
+.anh2, .anh1, .anh3, .text-on-picture, h2{
+    position: absolute;
+}
+.picture{
+    margin: 90px 20px 0 20px;
+}
+.text-on-picture h2{
+    font-family: bira;
+    font-size: 30px;
+    color: skyblue;
+    text-shadow: 1px 1px 2px skyblue,0 0 17px blue,0 0 7px darkblue;
+}
+.text-on-picture{
+    border: 5px solid white;
+    width: 404px;
+    height: 100px;
+    margin-top: 30px;
+    background-color: white;
+}
+@font-face {
+    font-family: bira;
+    src: url(SVN-Bira.ttf);
+}
+.bottom{
+    text-align: center;
+    padding-top: 133px;
+}
+.bottom1{
+    text-align: center;
+    padding-top: 730px;
+}
